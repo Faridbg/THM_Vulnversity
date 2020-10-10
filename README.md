@@ -91,7 +91,7 @@
 
 - What is the most likely operating system this machine is running?
 
-  **Solution:**
+  **Solution: Ubuntu**
 
   ~~~bash
   $ sudo nmap 10.10.63.39 -A
